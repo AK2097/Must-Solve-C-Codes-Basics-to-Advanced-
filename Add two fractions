@@ -1,0 +1,34 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int a,b,c,d;
+    int gcd;
+    cout<<"enter numerator and denominator of first fraction" << endl;
+    cin>>a>>b;
+    cout<<"enter numerator and denominator of second fraction" << endl;
+    cin>>c>>d;
+    int numerator = (a*d) + (c*b);
+    int denominator = b*d;
+    int sum = numerator / denominator;
+    int i;
+    for(i=1; i<=numerator && i<=denominator; i++)
+    {
+        if((numerator%i==0) && (denominator%i==0))
+        {
+            gcd = i;
+        }
+    }
+    cout<<numerator/gcd<<" " <<denominator/gcd <<endl;
+    return 0;
+
+    
+}
+
+
+enter numerator and denominator of first fraction
+2 4 
+enter numerator and denominator of second fraction
+3 5
+11 10
+
