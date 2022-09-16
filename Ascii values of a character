@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    char c;
+    cout<<"enter a character" <<endl;
+    cin>>c;
+    cout<< int(c) <<endl;
+    return 0;
+}
+
+enter a character
+A
+65
