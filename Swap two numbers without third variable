@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int a,b;
+    cout<<"enter two number" <<endl;
+    cin>>a>>b;
+    a = a+b;
+    b = a-b;
+    a = a-b;
+    cout<<"Number after swapping is :" << a <<" " <<b << endl;
+    return 0;
+}
+
+enter two number
+10 20
+Number after swapping is :20 10
