@@ -1,0 +1,26 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    char c;
+    cout<<"enter a character" <<endl;
+    cin>>c;
+    if(c =='A' || c == 'E' || c == 'I' || c == 'O' || c == 'U' || c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
+    {
+        cout<<"Vowels" <<endl;
+    }
+    else
+    {
+        cout<<"Consonants" <<endl;
+    }
+    return 0;
+}
+
+enter a character
+b
+Consonants
+
+
+enter a character
+u
+Vowels
