@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int base, exponent;
+    cout<<"enter base & exponent" <<endl;
+    cin>>base>>exponent;
+    int result = pow(base,exponent);
+    cout<<result<<endl;
+    return 0;
+}
+
+
+enter base & exponen
+2 3 
+8
