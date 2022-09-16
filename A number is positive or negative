@@ -1,0 +1,26 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int n;
+    cout<<"enter a number" <<endl;
+    cin>>n;
+    if(n >= 0)
+    {
+        cout<<"Positive Number" <<endl;
+    }
+    else
+    {
+        cout<<"Negative Number" <<endl;
+    }
+    return 0;
+}
+
+
+enter a number
+10
+Positive Number
+
+enter a number
+-1
+Negative Number
