@@ -1,0 +1,27 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    char c;
+    cout<<"enter a character" <<endl;
+    cin>>c;
+    if( c >= 'A' && c <= 'Z')
+    {
+        cout<<"Uppercase Alphabets" <<endl;
+    }
+    else if( c >= 'a' && c <= 'z')
+    {
+        cout<<"Lowercase Alphabets" <<endl;
+    }
+    else
+    {
+        cout<<"Special Characters" <<endl;
+    }
+    return 0;
+}
+
+    
+    
+enter a character
+A
+Uppercase Alphabets
