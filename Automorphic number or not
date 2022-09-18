@@ -1,0 +1,38 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int num1, num2;
+    int sum1=0, sum2=0;
+    cout<<"enter the first number" <<endl;
+    cin>>num1;
+    cout<<"enter the second number" <<endl;
+    cin>>num2;
+    int i;
+    for(i=1;i<num1;i++)
+    {
+        if(num1%i==0)
+        {
+            sum1 = sum1 + i;
+        }
+    }
+    
+    for(i=1;i<num2;i++)
+    {
+        if(num2%i==0)
+        {
+            sum2 = sum2 + i;
+        }
+    }
+    if(sum1==num1 && sum2==num2)
+    cout<<"automorphic number" <<endl;
+    else
+    cout<<"not an automorphic number" <<endl;
+    return 0;
+}
+
+enter the first number
+6
+enter the second number
+28
+automorphic number
